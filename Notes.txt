@@ -81,6 +81,19 @@ run chrome with disabled all security
 ------------------------------------
 chrome.exe --user-data-dir="C:/Chrome dev session" --disable-web-security
 
+horizontal scroll
+------------------
+.horizontal-scroll {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin: 8px;
+}
+.horizontal-scroll div.card {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 Play with branches
 ===================
 1. create a new branch
