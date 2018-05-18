@@ -1,0 +1,12 @@
+IOS BUILD
+1. build with ionic: ionic cordova build ios
+2. open xcode and run on iPhone simulator
+3. check your build before make a IPA
+4. select "generic iOS device" in device selection menu
+5. also check the certificates in project menu
+6. then, go to product -> Arhive
+7. when archive is created, export it from the xcode
+	a. choose -> development -> next -> choose nothing after loading complete -> 		next
+	b. select distribution certificate as default and select development certificate -> next
+	c. then export <app-name>.app to desktop
+8. open saved folder and upload <app-name>.ipa in http://diawi.com/ & share the link.
