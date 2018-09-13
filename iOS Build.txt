@@ -1,7 +1,6 @@
 IOS BUILD
-1. build with ionic: ionic cordova build ios
-2. open xcode and run on iPhone simulator
-3. check your build before make a IPA
+1. build with ionic: ionic cordova build ios --prod
+2. open xcode and run on iPhone simulator(check your build before make a IPA)
 4. select "generic iOS device" in device selection menu
 5. also check the certificates in project menu
 6. then, go to product -> Arhive
