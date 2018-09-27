@@ -94,6 +94,29 @@ horizontal scroll
     vertical-align: middle;
 }
 
+====================
+user enter:
+	destination location;
+	time;
+	
+	getRoute: 
+		create route on map
+	start tracking yourself
+		save source location
+calculate:
+	animation time (using destination location/time)
+
+start animation with calculated animation time
+
+at a same time: get current location on map against the animation running.
+
+calculation:
+	realtime time calculation for early and late timing.
+
+when user reach his/her position: 
+	app ask for save the time or save the track travel
+
+
 Play with branches
 ===================
 1. create a new branch
