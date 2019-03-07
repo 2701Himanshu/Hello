@@ -1,0 +1,13 @@
+1. use pouchdb instead of localStorage
+2. handle network connectivity
+3. clear unused variable/array/objects; 
+   use array map instead of for loop
+   use switch instead of if-else ladder
+4. Consider lazy loading for large items list
+5. apply animation; 
+   handle task in background; 
+   use Promises/async/await/observables/callbacks for asyncronous operations
+   don't use setTimeout/setInterval
+6. compile template at build time, not run time
+	ionic cordova build ios --prod
+7. use SVG,css icon instead of images
