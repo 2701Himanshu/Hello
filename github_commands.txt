@@ -65,3 +65,5 @@ Play with branches
 5. commit all the change in created branch
 	git push origin hello-in
 Note: "hello-in" is the branch name that I created, name your branch, whatever you want ;)
+6. reset old commit in local branch(after conflit in pull request)
+	git reset --keep HEAD@{1}
